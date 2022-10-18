@@ -1,0 +1,38 @@
+#portrait {
+    float: left;
+    margin-right: 8px;
+    border-radius: 10%;
+}
+
+#navbar { 
+    background-color: black;
+    color: white;
+}
+
+#navbar > a {
+    display: inline-block;
+    padding: 8px 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar > a:hover {
+    background-color: darkslategray;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    #portrait {
+        height: 200px
+    }
+}
